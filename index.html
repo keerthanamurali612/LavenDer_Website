@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lavender Flora</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <span>LavenDer</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#page"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Page
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About us</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- heros section -->
+
+    <div class="container" id="#home">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./img/img-1.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1
+            class="display-5 fw-bold lh-1 mb-3"
+            style="color: #ec6232; font-family: 'Poppins', sans-serif"
+          >
+            Decorate your home with plants
+          </h1>
+          <p class="lead">
+            Lavenders are small evergreen shrubs with gray-green hoary linear
+            leaves. The purple flowers are sparsely arranged on spikes at the
+            tips of long bare stalks and produce small nutlet fruits.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-success btn-lg px-4 me-md-2">
+              Shop Now
+            </button>
+            <button type="button" class="btn btn-outline-success btn-lg px-4">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- shop section -->
+    <div class="container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">Green<span> Life</span></h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+            <img src="./box.svg" alt="box" />
+          </div>
+          <div class="section-item">
+            <h2>Free delivery</h2>
+            <p>For all orders above $45</p>
+            <a href="#" class="btn btn-outline-success"> Learn More </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+            <img src="./lock.svg" alt="box" />
+          </div>
+          <div class="section-item">
+            <h2>Secure payments</h2>
+            <p>Confidence on all your devices</p>
+            <a href="#" class="btn btn-outline-success"> Learn More </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+            <img src="./headset.svg" alt="box" />
+          </div>
+          <div class="section-item">
+            <h2>24 x 7 Services</h2>
+            <p>sayhello&LavenDer.com</p>
+            <a href="#" class="btn btn-outline-success"> Learn More </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Product section -->
+    <h1 id="#product">Our Products</h1>
+    <div class="container" id="products">
+      <div class="card" style="width: 18rem">
+        <img
+          src="./img/products1.jpg"
+          class="card-img-top"
+          alt="Spider Plant"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Spider Plant</h5>
+          <p class="card-text">
+            <span><strong>Price</strong> $15.4</span>
+          </p>
+          <a href="#" class="btn btn-success">Buy Now</a>
+        </div>
+      </div>
+      <!-- card  2 -->
+      <div class="card" style="width: 18rem">
+        <img src="./img/products2.jpg" class="card-img-top" alt="Aurora" />
+        <div class="card-body">
+          <h5 class="card-title">Aurora</h5>
+          <p class="card-text">
+            <span><strong>Price</strong> $15.4</span>
+          </p>
+          <a href="#" class="btn btn-success">Buy Now</a>
+        </div>
+      </div>
+      <!-- card  3 -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="./img/products3.jpg"
+          class="card-img-top"
+          alt="Echeveria Succulent"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Echeveria Succulent</h5>
+          <p class="card-text">
+            <span><strong>Price</strong> $15.4</span>
+          </p>
+          <a href="#" class="btn btn-success">Buy Now</a>
+        </div>
+      </div>
+      <!-- card  4 -->
+      <div class="card" style="width: 18rem">
+        <img src="./img/products4.jpg" class="card-img-top" alt="Devil’s Ivy" />
+        <div class="card-body">
+          <h5 class="card-title">Devil’s Ivy</h5>
+          <p class="card-text">
+            <span><strong>Price</strong> $15.4</span>
+          </p>
+          <a href="#" class="btn btn-success">Buy Now</a>
+        </div>
+      </div>
+      <!-- card  5 -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="./img/products5.jpg"
+          class="card-img-top"
+          alt="Pink Dragon Tree"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Pink Dragon Tree</h5>
+          <p class="card-text">
+            <span><strong>Price</strong> $15.4</span>
+          </p>
+          <a href="#" class="btn btn-success">Buy Now</a>
+        </div>
+      </div>
+      <!-- card  6 -->
+      <div class="card" style="width: 18rem">
+        <img src="./img/products6.jpg" class="card-img-top" alt="ZZ Plant" />
+        <div class="card-body">
+          <h5 class="card-title">ZZ Plant</h5>
+          <p class="card-text">
+            <span><strong>Price</strong> $15.4</span>
+          </p>
+          <a href="#" class="btn btn-success">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner section -->
+
+    <div class="banner">
+      <img src="./img/Banner.png" alt="banner" />
+    </div>
+
+    <!-- image section -->
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Sets for all <span> styles </span></h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            ab quam dicta dolorum labore ut expedita modi facilis eum placeat
+            animi eveniet et beatae illum nulla. Deserunt, unde non? Natus?
+          </p>
+          <button type="button" class="btn btn-success">Shop Collection</button>
+        </div>
+        <div class="col-md-5">
+          <img src="./img/img-2.jpg" alt="image2" width="550" height="500" />
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <!-- image 2 -->
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Plants for <span>offices</span></h2>
+          <p class="lead">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+            laudantium magni facilis? Odio corporis dolore commodi amet
+            voluptatibus exercitationem officiis aliquam.
+          </p>
+          <button type="button" class="btn btn-success">Shop Collection</button>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="./img/img-3.jpg" alt="image3" width="550" height="500" />
+        </div>
+      </div>
+    </div>
+
+    <!-- newsletter -->
+    <div class="container1">
+      <div class="newsletter">
+        <h1>Sign Up To <span> Our Newsletter </span></h1>
+        <p>Stay up to date on the latest news with our carefully curated newsletters.</p>
+        <div class="news-button">
+          <input type="text" placeholder="Enter your email">
+          <button type="button">Submit</button>
+        </div>      
+      </div>
+    </div>
+
+    <!-- customs cards -->
+    <div class="customs_cards">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">#bring <span> lifein</span></h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover  h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('./img/c-img1.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <span class="tour">California</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- custom image2 -->
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('./img/c-img2.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <span class="tour"> Paris</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- custom image3 -->
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('./img/c-img3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <span class="tour">Seoul</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- footers section -->
+<div class="footer">
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Company</h5>
+          <ul class="nav flex-column p-3">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Careers</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Orders</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Our Guarantee</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3 ">
+          <h5>Support</h5>
+          <ul class="nav flex-column p-3">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Help+FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Track your order</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Shipping</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Return</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Support</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3 ">
+          <h5>Plant Question</h5>
+          <ul class="nav flex-column p-3">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Plant Care Tips</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Plant Life Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Plant App</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Team Plant</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h3 class="heading">STAY IN THE LOOP</h3>
+            <p>
+              Stay in the loop with special offers,plant-parenting tips, and more.
+            </p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button type="button"
+                style="margin: -5px; background-color: var(--mixorange);color:#fff; border:none; border-radius: 4px; ">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="image">
+          <img width="398" height="32"
+            src="https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/06/payments.png"
+            class="attachment-large size-large" alt="" loading="lazy">
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2023 LavenDer, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</div>
+    
+
+<!-- finished -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>

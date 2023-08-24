@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:ital,wght@0,500;1,400&family=Nunito:ital@1&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+:root{
+    --violet:#E64EEA;
+    --green:#17A589;
+    --lightgreen:#48C9B0;
+    --mixorange:#F05A27 ;
+    --grey:#7F8C8D;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-brand span {
+    color: var(--mixorange) ;
+    font-size:30px;
+    
+}
+.nav-item{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-nav .nav-item .nav-link{
+    color: var(--green);
+}
+#navbarDropdown {
+    color: var(--green);
+}
+
+/* shop section */
+
+#hanging-icons h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+#hanging-icons h2 span{
+    color: var(--mixorange);
+}
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+.icon-square img{
+    width: 40px;
+}
+
+.section-item h2{
+    
+    color: #1E8449 ;
+    font-family: 'Poppins', sans-serif;
+}
+.section-item p{
+    font-size: 20px;
+    color: var(--mixorange);
+}
+
+
+
+/* our products */
+#products{
+    padding: 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 70px;
+    overflow: hidden;
+    overflow-x: scroll;
+    
+}
+h1{
+    text-align: center;
+    color: var(--grey);
+}
+
+.container .card{ 
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    text-align: center;  
+    border-radius: 10px;
+    height: 480px;
+}
+.container .card .card-title{
+    font-size: 20px;
+    color: var(--mixorange);
+}
+.container .card .card-title .card-text{
+    font-size: 10px;
+}
+.container .card .card-title .card-text .btn{
+    text-align: center;
+}
+
+/* banner section */
+.banner{
+    padding: 30px;
+}
+.banner img{
+    background-color: rgb(189, 187, 187);
+    padding: 30px;
+    width: 100%;   
+}
+
+/* image section */
+.container .featurette{
+    padding: 30px;
+}
+.col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+.featurette-heading {
+    margin-top: 7rem;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.featurette-heading span{
+    font-style: italic;
+    color: var(--mixorange);
+}
+.container2{
+    padding: 30px;
+}
+.container2 .featurette-heading {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container2 p{
+    padding: 0;
+    margin-left: 166px;
+    justify-content: left;
+    width: 585px;
+    max-width: 585px;
+}
+.container2 button{
+    margin-left: 166px;
+}
+
+/* newsletter section */
+.container1{
+    background-color: #D7DBDD;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 110px 15px 145px 15px;
+    
+} 
+.newsletter h1{
+    padding: 30px;
+    bottom: 40px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.newsletter h1 span{
+    font-style: italic;
+    color: var(--mixorange);
+}
+.newsletter p{
+    margin-top: -24px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.news-button{
+    padding: 10px;
+    margin-left: 300px;
+}
+
+.container1 .newsletter button, input {
+    padding: 15px;
+    margin: -4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    line-height: inherit;
+    width: 60%;
+    border: none;
+}
+.container1 .newsletter button{
+    width: 100px;
+    background: #000;
+    color: #fff;
+    border-color: #000;
+   
+} 
+
+/* custom-cards */
+#custom-cards h2{
+    font-family: 'Poppins', sans-serif;
+}
+#custom-cards h2 span{
+    font-style: italic;
+    color: var(--mixorange);
+}
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.card-cover .tour{
+    font-size: 35px;
+    font-family:'Poppins', sans-serif;   
+}
+
+/* footers section */
+.footer{
+    background-color: #229954 ;
+    color: #fff;
+}
+.flex-column .nav-link{
+    font-size: 15px;
+}
+
+
+
+
